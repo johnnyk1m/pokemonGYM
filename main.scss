@@ -43,13 +43,6 @@ body {
   text-align: center;
   display: -webkit-flex;
 
-  #logo {
-    max-height: 80%;
-    max-width: 80%;
-    padding: 10px;
-    margin: 0;
-  }
-
   img {
     max-height: 100%;
     max-width: 100%;
@@ -79,13 +72,6 @@ body {
   }
 }
 
-#logo,
-#leftSide,
-#rightSide,
-#masterSide {
-  animation: fadeIn 3.2s forwards;
-}
-
 @keyframes fadeIn {
 
   0% {
@@ -111,6 +97,18 @@ body {
 
 #slide3 {
   animation: slide 1.8s forwards;
+}
+
+#slide4 {
+  animation: slide 2s forwards;
+}
+
+#slide5 {
+  animation: slide 2.1s forwards;
+}
+
+#slide6 {
+  animation: slide 2.2s forwards;
 }
 
 

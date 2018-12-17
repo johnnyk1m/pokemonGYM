@@ -27,11 +27,6 @@ body {
 #selector {
   text-align: center;
   display: -webkit-flex; }
-  #selector #logo {
-    max-height: 80%;
-    max-width: 80%;
-    padding: 10px;
-    margin: 0; }
   #selector img {
     max-height: 100%;
     max-width: 100%;
@@ -53,12 +48,6 @@ body {
     height: 35em;
     width: 35em; }
 
-#logo,
-#leftSide,
-#rightSide,
-#masterSide {
-  animation: fadeIn 3.2s forwards; }
-
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -74,6 +63,15 @@ body {
 
 #slide3 {
   animation: slide 1.8s forwards; }
+
+#slide4 {
+  animation: slide 2s forwards; }
+
+#slide5 {
+  animation: slide 2.1s forwards; }
+
+#slide6 {
+  animation: slide 2.2s forwards; }
 
 @keyframes slide {
   0% {
