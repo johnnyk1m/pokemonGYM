@@ -61,6 +61,12 @@ body {
 
   .stats {
     padding-left: 80px;
+		.name {
+			text-transform: capitalize;
+		}
+		.abilities {
+			text-transform: capitalize;
+		}
   }
 }
 
@@ -126,4 +132,3 @@ body {
     opacity: 1;
   }
 }
-

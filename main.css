@@ -42,6 +42,10 @@ body {
   padding-left: 40px; }
   #leftSide .stats {
     padding-left: 80px; }
+    #leftSide .stats .name {
+      text-transform: capitalize; }
+    #leftSide .stats .abilities {
+      text-transform: capitalize; }
 
 #rightSide {
   display: -webkit-flex; }
