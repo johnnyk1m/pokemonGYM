@@ -30,15 +30,15 @@ function pokemonData(pokeName) {
 
 			newPokemon = new Pokemon(moniker, stat[5].base_stat, stat[4].base_stat, stat[3].base_stat, stat[0].base_stat, abilities);
 
-			nameStat.innerHTML = `NAME: ${newPokemon.name}`
-			hpStat.innerHTML = `HP: ${newPokemon.hp}`
-			attackStat.innerHTML = `ATTACK: ${newPokemon.attack}`
-			defenseStat.innerHTML = `DEFENSE: ${newPokemon.defense}`
-			speedStat.innerHTML = `SPEED: ${newPokemon.speed}`
+			nameStat.innerHTML = `NAME: ${newPokemon.name} <br />`
+			hpStat.innerHTML = `HP: ${newPokemon.hp} <br />`
+			attackStat.innerHTML = `ATTACK: ${newPokemon.attack} <br />`
+			defenseStat.innerHTML = `DEFENSE: ${newPokemon.defense}<br />`
+			speedStat.innerHTML = `SPEED: ${newPokemon.speed}<br />`
 
 			var loopsicle = [];
 			for (i = 0; i < newPokemon.abilities.length; i++) {
-				loopsicle += "<br /> <br />" + abilities[i].ability.name;
+				loopsicle += "<br />" + abilities[i].ability.name;
 			};
 
 			abilitiesStat.innerHTML = `ABILITIES: ${loopsicle}`
