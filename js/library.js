@@ -30,7 +30,7 @@ function pokemonData(pokeName) {
 
 			newPokemon = new Pokemon(moniker, stat[5].base_stat, stat[4].base_stat, stat[3].base_stat, stat[0].base_stat, abilities);
 
-			nameStat.innerHTML = `NAME: ${newPokemon.name} <br />`
+			nameStat.innerHTML = `NAME: ${newPokemon.name}.style.textTransform="capitalize" <br />`
 			hpStat.innerHTML = `HP: ${newPokemon.hp} <br />`
 			attackStat.innerHTML = `ATTACK: ${newPokemon.attack} <br />`
 			defenseStat.innerHTML = `DEFENSE: ${newPokemon.defense}<br />`
@@ -38,7 +38,7 @@ function pokemonData(pokeName) {
 
 			var loopsicle = [];
 			for (i = 0; i < newPokemon.abilities.length; i++) {
-				loopsicle += "<br />" + abilities[i].ability.name;
+				loopsicle += "<br />" + abilities[i].ability.name.style.textTransform="capitalize";
 			};
 
 			abilitiesStat.innerHTML = `ABILITIES: ${loopsicle}`
