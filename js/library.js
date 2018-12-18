@@ -8,16 +8,6 @@ var defenseStat = document.querySelector(".defense");
 var speedStat = document.querySelector(".speed");
 var abilitiesStat = document.querySelector(".abilities");
 
-class Pokemon {
-	constructor(name, hp, attack, defense, speed, abilities) {
-		this.name = name;
-		this.hp = hp;
-		this.attack = attack;
-		this.defense = defense;
-		this.speed = speed;
-		this.abilities = abilities;
-	};
-};
 
 function pokemonData(pokeName) {
 	axios.get(apiUrl2 + pokeName + ".json")
